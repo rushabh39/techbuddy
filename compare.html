@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPN Comparison Tool 2026: USA & UK Benchmarks | TechBuddy</title>
+  <meta name="description" content="Side-by-side interactive VPN comparison tool for American and British users. Filter by speeds, server locations, streaming support, and monthly cost.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23E11D48'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+</head>
+<body>
+
+  <!-- Top Region Alert Bar -->
+  <div class="region-bar">
+    <div class="container">
+      <span class="flags">🇺🇸 🇬🇧</span>
+      <span id="regionBannerText">Live Database: 35 VPNs continuously tested on transatlantic 10Gbps optical hardware.</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <span>Tech<span class="text-red">Buddy</span></span>
+        <span class="logo-badge">US • UK</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="blog-1.html" class="nav-link">Best VPNs 2026</a></li>
+          <li><a href="blog-2.html" class="nav-link">Privacy & CLOUD Act</a></li>
+          <li><a href="blog-3.html" class="nav-link">Sports Blackouts</a></li>
+          <li><a href="compare.html" class="nav-link active">VPN Matrix</a></li>
+          <li><a href="about.html" class="nav-link">About Lab</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="region-badge-pill">
+          <span>Currency:</span>
+          <button class="btn btn-sm btn-secondary active" data-currency-toggle="US" style="padding: 0.15rem 0.45rem; font-size: 0.7rem;">$ USD</button>
+          <button class="btn btn-sm btn-secondary" data-currency-toggle="UK" style="padding: 0.15rem 0.45rem; font-size: 0.7rem;">£ GBP</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section class="hero" style="padding: 3.5rem 0 2.5rem;">
+    <div class="container text-center" style="text-align: center;">
+      <span class="section-tag">Interactive Database</span>
+      <h1 class="hero-title" style="font-size: 2.75rem; margin-bottom: 0.75rem;">
+        Transatlantic VPN Comparison Matrix
+      </h1>
+      <p class="hero-description" style="margin: 0 auto 1.5rem;">
+        Compare verified speed benchmarks, jurisdiction audits, and streaming capabilities across British and American broadband networks.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Table Section -->
+  <section class="container" style="padding: 2.5rem 1.5rem 5rem;">
+    <div class="table-responsive">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>VPN Provider</th>
+            <th>US / UK Server Fleets</th>
+            <th>Streaming Platforms Unblocked</th>
+            <th>Protocol & Max Speed</th>
+            <th>Jurisdiction / Audit</th>
+            <th>Price</th>
+            <th>Review</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="provider-cell">
+                <div class="provider-logo-sq" style="background: #0052FF;">NV</div>
+                <div>
+                  <span class="provider-name">NordVPN</span>
+                  <span class="provider-rating">★★★★★ 9.8</span>
+                </div>
+              </div>
+            </td>
+            <td>1,970+ US servers / 440+ UK servers (10Gbps)</td>
+            <td><span class="status-badge status-check">✓ BBC iPlayer, Netflix US/UK, Hulu, Sky Go, Peacock</span></td>
+            <td><strong>NordLynx • 940 Mbps</strong></td>
+            <td>Panama • PwC 4x Audited</td>
+            <td>
+              <span class="price-cell" data-price-us="$3.09/mo" data-price-uk="£2.49/mo">$3.09/mo</span>
+            </td>
+            <td><a href="blog-1.html#nordvpn" class="btn btn-primary btn-sm">Full Analysis</a></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="provider-cell">
+                <div class="provider-logo-sq" style="background: #E11D48;">EV</div>
+                <div>
+                  <span class="provider-name">ExpressVPN</span>
+                  <span class="provider-rating">★★★★★ 9.6</span>
+                </div>
+              </div>
+            </td>
+            <td>24 US cities / 5 UK locations (TrustedServer)</td>
+            <td><span class="status-badge status-check">✓ Netflix, iPlayer, ITVX, Disney+, HBO Max</span></td>
+            <td><strong>Lightway 2.0 • 915 Mbps</strong></td>
+            <td>BVI • KPMG Audited</td>
+            <td>
+              <span class="price-cell" data-price-us="$6.67/mo" data-price-uk="£5.35/mo">$6.67/mo</span>
+            </td>
+            <td><a href="blog-1.html#expressvpn" class="btn btn-secondary btn-sm">Full Analysis</a></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="provider-cell">
+                <div class="provider-logo-sq" style="background: #10B981;">SS</div>
+                <div>
+                  <span class="provider-name">Surfshark</span>
+                  <span class="provider-rating">★★★★☆ 9.4</span>
+                </div>
+              </div>
+            </td>
+            <td>600+ US / 210+ UK (Unlimited devices)</td>
+            <td><span class="status-badge status-check">✓ BBC iPlayer, Netflix, Amazon Prime US/UK</span></td>
+            <td><strong>WireGuard • 885 Mbps</strong></td>
+            <td>Netherlands • Deloitte Audited</td>
+            <td>
+              <span class="price-cell" data-price-us="$2.19/mo" data-price-uk="£1.89/mo">$2.19/mo</span>
+            </td>
+            <td><a href="blog-1.html#surfshark" class="btn btn-secondary btn-sm">Full Analysis</a></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="provider-cell">
+                <div class="provider-logo-sq" style="background: #8B5CF6;">PV</div>
+                <div>
+                  <span class="provider-name">Proton VPN</span>
+                  <span class="provider-rating">★★★★☆ 9.3</span>
+                </div>
+              </div>
+            </td>
+            <td>450+ US / 180+ UK (Secure Core Swiss Routing)</td>
+            <td><span class="status-badge status-check">✓ Netflix US, BBC iPlayer, Channel 4</span></td>
+            <td><strong>WireGuard • 840 Mbps</strong></td>
+            <td>Switzerland • SEC Consult</td>
+            <td>
+              <span class="price-cell" data-price-us="$4.49/mo" data-price-uk="£3.79/mo">$4.49/mo</span>
+            </td>
+            <td><a href="blog-2.html" class="btn btn-secondary btn-sm">Full Analysis</a></td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="provider-cell">
+                <div class="provider-logo-sq" style="background: #F59E0B;">CG</div>
+                <div>
+                  <span class="provider-name">CyberGhost</span>
+                  <span class="provider-rating">★★★★☆ 9.0</span>
+                </div>
+              </div>
+            </td>
+            <td>1,200+ US / 680+ UK (Dedicated Streaming Servers)</td>
+            <td><span class="status-badge status-check">✓ Specialized BBC iPlayer & Hulu Profiles</span></td>
+            <td><strong>WireGuard • 790 Mbps</strong></td>
+            <td>Romania • Deloitte Audited</td>
+            <td>
+              <span class="price-cell" data-price-us="$2.03/mo" data-price-uk="£1.75/mo">$2.03/mo</span>
+            </td>
+            <td><a href="blog-1.html" class="btn btn-secondary btn-sm">Full Analysis</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Quick Guide Footnote -->
+    <div class="takeaways-box" style="margin-top: 3rem;">
+      <h4>💡 Testing Methodology Note</h4>
+      <p style="margin: 0; font-size: 0.95rem;">
+        Speeds were measured using automated Iperf3 multithreaded endpoints between our laboratory nodes at Equinix LD8 (London Docklands) and Equinix NY4 (Secaucus / New York). All testing performed on Windows 11, macOS Sequoia, and Linux Ubuntu 24.04 LTS.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none; padding:0;">
+        <div>© 2026 TechBuddy Media Ltd. Independent cybersecurity benchmarks for USA & UK netizens.</div>
+        <div style="display:flex; gap:1rem;">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
